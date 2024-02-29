@@ -1,0 +1,21 @@
+# Mike, a university student, navigates a balanced academic week across 7 days, 
+# blending study with leisure (effort block 0) and attending roughly 8 hours of lectures (effort block -1).
+# Tasks vary widely, from quick note-taking to intensive coursework, with a task cost mostly between 1-3, 
+# though crucial submissions may escalate to 4 or even 5, risking course failure. 
+# Despite a diverse task list, Mike tends to miss tasks weekly due to varying priorities and time management challenges.
+
+week:
+  - day: "Monday"
+    effort_blocks: [-1, 0, 2, 0, 1, 0, 1]  # Lecture, leisure, study, and note-taking
+  - day: "Tuesday"
+    effort_blocks: [-1, 1, 0, 2, 0, 1, -1]  # Study, leisure, and afternoon lecture
+  - day: "Wednesday"
+    effort_blocks: [1, 1, 2, 2, 1, 0, -1]  # Leisure, study, and high-focus coursework
+  - day: "Thursday"
+    effort_blocks: [-1, 1, 0, 2, 0, 1, -1]  # Morning lecture, study, coursework, and late lecture
+  - day: "Friday"
+    effort_blocks: [1, 0, 1, 0, 2, 2, 2, -1]  # Note-taking, leisure, and intense study session
+  - day: "Saturday"
+    effort_blocks: [0, 1, 0, 1, 0]  # Weekend lighter study and leisure
+  - day: "Sunday"
+    effort_blocks: [0, 2, 0, 1, 0, 1]  # High-focus study, revision, and leisure

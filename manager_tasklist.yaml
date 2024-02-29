@@ -1,0 +1,111 @@
+tasks:
+  - name: "Cross-Departmental Meeting Organization"
+    duration: 2
+    priority: 3
+    high_focus: false
+    cost: 1
+    deadline: 2
+    complication_probability: 0.15
+    complication:
+      name: "Rescheduling Required"
+      duration: 1
+      priority: 4
+      high_focus: false
+      cost: 2
+      deadline: 3
+
+  - name: "Quarterly Strategy Review"
+    duration: 2
+    priority: 4
+    high_focus: true
+    cost: 3
+    deadline: 2
+    complication_probability: 0.2
+    complication:
+      name: "Significant Changes Needed"
+      duration: 2
+      priority: 5
+      high_focus: true
+      cost: 3
+      deadline: 2
+
+  - name: "Update Corporate Training Program"
+    duration: 2
+    priority: 2
+    high_focus: false
+    cost: 2
+    deadline: 3
+    complication_probability: 0.1
+    complication:
+      name: "Additional Resources Required"
+      duration: 1
+      priority: 3
+      high_focus: false
+      cost: 2
+      deadline: 4
+
+  - name: "Draft Major Business Plan"
+    duration: 3
+    priority: 5
+    high_focus: true
+    cost: 4
+    deadline: 4
+    complication_probability: 0.2
+    complication:
+      name: "Obtain Missing KPI values"
+      duration: 2
+      priority: 5
+      high_focus: true
+      cost: 4
+      deadline: 4
+
+  - name: "Team Building Activity Planning"
+    duration: 1
+    priority: 3
+    high_focus: false
+    cost: 1
+    deadline: 2
+    
+  - name: "Staff Performance Review"
+    duration: 1
+    priority: 5
+    high_focus: true
+    cost: 2
+    deadline: 1
+    complication_probability: 0.1
+    complication:
+      name: "Follow-up Required"
+      duration: 1
+      priority: 5
+      high_focus: true
+      cost: 2
+      deadline: 2
+
+  - name: "Weekly Team Sync"
+    duration: 1
+    priority: 4
+    high_focus: false
+    cost: 2
+    deadline: 6
+
+  - name: "Write Job Description Document"
+    duration: 2
+    priority: 3
+    high_focus: false
+    cost: 3
+    deadline: 4
+
+  - name: "Budget Allocation for New Project"
+    duration: 3
+    priority: 5
+    high_focus: true
+    cost: 3
+    deadline: 3
+    complication_probability: 0.2
+    complication:
+      name: "Budget Cut"
+      duration: 2
+      priority: 5
+      high_focus: true
+      cost: 3
+      deadline: 4

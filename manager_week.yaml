@@ -1,0 +1,18 @@
+# Jordan is a manager overseeing various projects and teams. The role involves longer days with
+# fewer periods dedicated to high-focus tasks, interspersed with meetings and administrative duties.
+# Jordan's week is characterized by multitasking across numerous short-duration tasks, from team reviews
+# to strategic planning, with efforts often extending beyond regular hours. Despite the occasional need
+# for deep focus on tasks like forecasting and organizing, the schedule is predominantly filled with
+# meetings and manageable tasks, aiming to keep everything and everyone on track.
+
+week:
+  - day: "Monday"
+    effort_blocks: [-1, 1, 1, 0, -1, 1, 2, 1, 0, 1]  # Morning meeting, mixed-focus, and late work
+  - day: "Tuesday"
+    effort_blocks: [1, -1, 1, 0, 2, -1, 1, 1, 0, 1, 1]  # Team check-ins, high-focus task, and reviews
+  - day: "Wednesday"
+    effort_blocks: [-1, 1, 1, 0, 1, -1, 1, 2, 1]  # Strategy meeting, low-focus tasks, and planning
+  - day: "Thursday"
+    effort_blocks: [1, 1, -1, 0, 1, 1, 2, -1, 1, 1]  # Operational reviews and high-focus forecasting
+  - day: "Friday"
+    effort_blocks: [-1, 1, 1, 0, 1, -1, 1,1]  # Meetings and task completion

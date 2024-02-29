@@ -1,0 +1,17 @@
+# Alexa is a software developer working at a tech startup. The job involves coding,
+# fixing bugs, and meeting with the team. Alexa's week is filled with focused coding tasks,
+# solving urgent problems, and participating in meetings to stay in sync with the team.
+# This all happens in a typical workweek where managing time and tasks is crucial.
+# Alexa does weekly sprint meetings early on the Monday morning.
+
+week:
+  - day: "Monday"
+    effort_blocks: [-1, 2, 1, 0, 1, 2, 2, 1]  # High-focus morning, mixed afternoon
+  - day: "Tuesday"
+    effort_blocks: [2, 2, 0, 1, 2, 2, 1, 0]  # High-focus tasks early and late, administrative tasks and break midday
+  - day: "Wednesday"
+    effort_blocks: [1, 2, 2, 0, 1, 2, 2, 1]  # Mix of high and low-focus tasks, with a midday break
+  - day: "Thursday"
+    effort_blocks: [2, 1, 2, 1, 0, 2, 2, 1]  # Focus on coding tasks with breaks and low-focus tasks interspersed
+  - day: "Friday"
+    effort_blocks: [1, 1, 2, 2, 1, 0, 1, 2]  # End the week with a varied focus, preparing for next week or wrapping up tasks

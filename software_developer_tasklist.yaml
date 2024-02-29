@@ -1,0 +1,133 @@
+tasks:
+  - name: "Develop New Feature A"
+    duration: 9
+    priority: 5
+    high_focus: true
+    cost: 4
+    deadline: 3
+    complication_probability: 0.25
+    complication:
+      name: "Integration Issue"
+      duration: 4
+      priority: 5
+      high_focus: true
+      cost: 4
+      deadline: 3
+
+  - name: "Fix Critical Bug B"
+    duration: 5
+    priority: 5
+    high_focus: true
+    cost: 5
+    deadline: 2
+    complication_probability: 0.20
+    complication:
+      name: "Systemic Problem Discovered"
+      duration: 5
+      priority: 5
+      high_focus: true
+      cost: 5
+      deadline: 3
+
+  - name: "Code Review for Teammate's Project"
+    duration: 4
+    priority: 3
+    high_focus: false
+    cost: 2
+    deadline: 7
+
+  - name: "Document Feature A"
+    duration: 4
+    priority: 3
+    high_focus: false
+    cost: 3
+    deadline: 7
+
+  - name: "Remove Obsolete Feature D"
+    duration: 4
+    priority: 2
+    high_focus: false
+    cost: 2
+    deadline: 7
+
+  - name: "Research New Technologies"
+    duration: 7
+    priority: 4
+    high_focus: true
+    cost: 1
+    deadline: 7
+    complication_probability: 0.15
+    complication:
+      name: "Key Technology Deprecated"
+      duration: 3
+      priority: 3
+      high_focus: true
+      cost: 1
+      deadline: 7
+
+
+  - name: "Develop New Feature C"
+    duration: 6
+    priority: 4
+    high_focus: true
+    cost: 3
+    deadline: 7
+    complication_probability: 0.30
+    complication:
+      name: "Scope Creep"
+      duration: 5
+      priority: 4
+      high_focus: true
+      cost: 3
+      deadline: 7
+
+  - name: "Address Technical Debt"
+    duration: 8
+    priority: 2
+    high_focus: true
+    cost: 2
+    deadline: 7
+    complication:
+      name: "New Technical Debt Discovered"
+      duration: 3
+      priority: 2
+      high_focus: true
+      cost: 2
+      deadline: 7
+
+  - name: "Prepare Presentation for Stakeholders"
+    duration: 4
+    priority: 3
+    high_focus: false
+    cost: 2
+    deadline: 3
+    complication_probability: 0.20
+    complication:
+      name: "Last-Minute Changes Requested"
+      duration: 3
+      priority: 3
+      high_focus: false
+      cost: 2
+      deadline: 3
+
+  - name: "Update Project Documentation"
+    duration: 5
+    priority: 3
+    high_focus: false
+    cost: 3
+    deadline: 7
+
+  - name: "Optimize Database Queries"
+    duration: 7
+    priority: 4
+    high_focus: true
+    cost: 3
+    deadline: 7
+
+  - name: "Review Security Protocols"
+    duration: 6
+    priority: 3
+    high_focus: true
+    cost: 4
+    deadline: 4
+# 11 Tasks

@@ -1,0 +1,121 @@
+tasks:
+  - name: "Coursework for Mathematics"
+    duration: 3
+    priority: 5
+    high_focus: true
+    cost: 3
+    deadline: 3
+    complication_probability: 0.15
+    complication:
+      name: "Misinterpretation of Assignment Requirements"
+      duration: 1
+      priority: 5
+      high_focus: true
+      cost: 3
+      deadline: 3
+
+  - name: "Prepare for Biology Exam"
+    duration: 2
+    priority: 5
+    high_focus: false
+    cost: 4
+    deadline: 6
+
+  - name: "Essay for English Literature"
+    duration: 2
+    priority: 4
+    high_focus: true
+    cost: 4
+    deadline: 5
+    complication_probability: 0.2
+    complication:
+      name: "Resolve Writer's Block"
+      duration: 1
+      priority: 4
+      high_focus: false
+      cost: 4
+      deadline: 5
+
+  - name: "Exam Resit Study for Physics"
+    duration: 2
+    priority: 5
+    high_focus: true
+    cost: 5
+    deadline: 3
+
+  - name: "Revise Chemistry Notes"
+    duration: 1
+    priority: 2
+    high_focus: false
+    cost: 1
+    deadline: 4
+
+  - name: "Weekly Assignment for History"
+    duration: 1
+    priority: 3
+    high_focus: false
+    cost: 1
+    deadline: 1
+    complication_probability: 0.1
+    complication:
+      name: "Access Issues to Online Library"
+      duration: 1
+      priority: 3
+      high_focus: false
+      cost: 2
+      deadline: 1
+
+  - name: "Group Project Work for Software Development"
+    duration: 2
+    priority: 3
+    high_focus: false
+    cost: 2
+    deadline: 4 
+    complication_probability: 0.1
+    complication:
+      name: "Fix Platform Deployment Issue"
+      duration: 1
+      priority: 3
+      high_focus: false
+      cost: 3
+
+
+  - name: "Make Notes for Philosophy Class"
+    duration: 2
+    priority: 2
+    high_focus: false
+    cost: 2
+
+  - name: "Do Optional Math Practice To Strengthen Skills"
+    duration: 1
+    priority: 1
+    high_focus: true
+    cost: 1
+
+  - name: "Finish Report Contribution to Group Project"
+    duration: 2
+    priority: 3
+    high_focus: false
+    cost: 3
+    complication_probability: 0.15
+    complication:
+      name: "Visit to the Library Required"
+      duration: 1 
+      priority: 3
+      high_focus: false
+      cost: 3
+
+  - name: "Research for Environmental Science Project"
+    duration: 3
+    priority: 4
+    high_focus: true
+    cost: 3
+    deadline: 7  # Due next Monday
+    complication_probability: 0.15
+    complication:
+      name: "Unexpected Requirement for Additional Data"
+      duration: 1 
+      priority: 4
+      high_focus: true
+      cost: 3
+      deadline: 7
